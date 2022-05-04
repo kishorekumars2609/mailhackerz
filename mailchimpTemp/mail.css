@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: HACKED;
+  src: url(./font/HACKED.ttf);
+}
+
+@font-face {
+  font-family: Fira Code;
+  src: url(./font/FiraCode-VariableFont_wght.ttf);
+}
+
+.mailPage{
+  background-color: #17141D;
+
+}
+.upper{
+  display: flex;
+  justify-content: center;
+}
+
+
+.logo p{
+  text-align: center;
+  font-size: 10vh;
+  color: #ECECEC;
+  font-family: HACKED ;
+}
+
+.logo img{
+    height: 25vh;
+}
+.middle{
+  display: flex;
+  justify-content: center;
+  margin: 5vh;
+}
+
+.btnContainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+
+}
+
+.Invitation{
+  color:white;
+  justify-content: center;
+  padding: 5vw;
+  width: 60%;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 2px solid rgba(80, 222, 222, 0.18);
+  font-family: "Fira Code";
+}
+
+.lower{
+  display: flex;
+  justify-content: center;
+}
+
+.QrCode{
+  background-color:white ;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 2px solid rgba(80, 222, 222, 0.18);
+}
+
+.QrCode img{
+  height: 60vh;
+}
+
+button {
+  font-family: "Fira Code";
+  font-weight: bold;
+  padding: 8px 20px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: aqua
+  ;
+}
+button:disabled {
+  cursor: not-allowed;
+  background-color: #056b6b;
+}
+
+button:hover{
+  box-shadow: 0px 0px 20px var(--blue),
+  inset 10px 0px 20px rgba(0, 210, 210, 0.5);
+  transition: all 0.3s ease-out;
+}
+
+
+
+
+.footer{
+  height: 10vh;
+  width: 100%;
+  text-align: center;
+  color: #f4f4f4;
+  font-family: Fira Code;
+  
+}
+
+.icons{
+  padding-top: 1rem;
+  background-color: #17141D;
+}
+
+.icons a{
+  text-decoration: none;
+  font-size: 2rem;
+  margin: 0.5rem;
+  color: #f4f4f4;
+}
+
+.company-name{
+  font-size: 1.6rem;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 500px){
+  html{
+      font-size: 50%;
+  }
+  .Invitation{
+    width: 90%;
+  }
+  .QrCode img{
+    height: 30vh;
+  }
+}    
+
+ 
+
